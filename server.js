@@ -23,7 +23,7 @@ let app = http.createServer(
 			function(){
 				file.serve(request, response);
 			}
-		)
+		).resume();
 	}
 
 ).listen(port);
