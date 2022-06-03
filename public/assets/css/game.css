@@ -34,7 +34,8 @@ table#game_board{
 table#game_board td{
     border: 1px solid #000;
     margin: 0 px;
-    padding: 0px;;
+    padding: 0px;
+    background-color: #d3e1bf;
 }
 
 td.hovered_over:hover{
